@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import Optional
+from pydantic import BaseModel  # for Validation
+from typing import Optional     # make it optional pass or not passsed
 
 # Create a FastAPI instance
 app = FastAPI(title="Simple Text API", 
